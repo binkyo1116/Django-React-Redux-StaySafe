@@ -1,0 +1,36 @@
+main {
+    height: 90vh;
+}
+::selection {
+    background: #6e6767; /* WebKit/Blink Browsers */
+  }
+::-moz-selection {
+    background: #6e6767; /* Gecko Browsers */
+}
+
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+    color: #ffffff;
+}
+
+h3 {
+    padding: 0.5rem 0;
+    color: #ffffff;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.ml-auto {
+    margin-left: auto !important;
+    justify-content: end;
+}
